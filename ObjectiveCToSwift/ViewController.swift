@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let suma: Suma = Suma()
+        self.title = "\(suma.sumaWith(x: 32, andY: 23))"
     }
 
     override func didReceiveMemoryWarning() {
